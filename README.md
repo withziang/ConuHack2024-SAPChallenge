@@ -4,7 +4,7 @@ This repository is dedicated to store the solution my team made for 2024 Conuhac
 
 ## Challenge detail
 
-Topic: Schedule optimization, work load distribution among 10 station.
+**Topic:** Schedule optimization, work load distribution among 10 station.
 
 Your role is to construct a software solution focused on optimizing the schedule for a tire change shop. This shop operates from 7am to 7pm, beginning in early October and ending in late November. 5 types of vehicle
 - Compact car: 30min 150$
@@ -66,4 +66,4 @@ Under __main__, the sample data is provided, as well a backend c++ code and its 
 Under __main/final__ version, the website file plus backend python code is provided. 
 
 # Algorithm detail
-A true and false table (61*12*60*10) matrix. For each customer, evaluate the vacancy from their reservation starting time to the end time. If it is available, return true and update the table. 
+A true and false table`(61 * 12 * 60 * 10)` matrix. For each customer, evaluate the vacancy from their reservation starting time to the end time. If it is available, return true and update the table. 
