@@ -2,17 +2,19 @@
 
 This repository is dedicated to store the solution my team made for 2024 Conuhack SAP challenge
 
-# Team members:
+### Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-[![All Contributors](https://img.shields.io/github/all-contributors/withziang/ConuHack2024?color=ee8449&style=flat-square)](#contributors)
+
+![AevisMotax](https://avatars.githubusercontent.com/u/108089675?v=4) <!-- Replace with actual name and avatar URL -->
+[AevisMotax](https://github.com/AevisMotax) <!-- Replace with actual name and GitHub profile URL -->
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- CONTRIBUTORS-LIST:END -->
 
 ## Challenge detail
 
