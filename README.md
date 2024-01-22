@@ -2,6 +2,17 @@
 
 This repository is dedicated to store the solution my team made for 2024 Conuhack SAP challenge
 
+# Team members:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+[![All Contributors](https://img.shields.io/github/all-contributors/withziang/ConuHack2024?color=ee8449&style=flat-square)](#AevisMotax)
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Challenge detail
 
 **Topic:** Schedule optimization, work load distribution among 10 station.
