@@ -1,6 +1,16 @@
 # Conuhack
 
 This repository is dedicated to store the solution my team made for 2024 Conuhack SAP challenge
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Contributors
 
