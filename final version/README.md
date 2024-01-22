@@ -1,6 +1,6 @@
 # TireSwift
 ## Overview
-This repository contains the codebase for a web application that utilizes ClerkJS for authentication and a Python API for optimizing schedules. The application allows users to log in as administrators and access specific schedules optimized by our reservation algorithm.
+This folder contains the codebase for a web application that utilizes ClerkJS for authentication and a Python API for optimizing schedules. The application allows users to log in as administrators and access specific schedules optimized by our reservation algorithm.
 
 ## Getting Started
 To get started with this project, follow these steps:
