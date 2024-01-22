@@ -11,11 +11,6 @@ This repository is dedicated to store the solution my team made for 2024 Conuhac
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-### Contributors
-
-<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 
 <div style="display: flex; align-items: center;">
 
@@ -23,67 +18,31 @@ This repository is dedicated to store the solution my team made for 2024 Conuhac
 <div style="margin-right: 20px;">
 <img src="https://avatars.githubusercontent.com/u/77416099?v=4" alt="BariHub" width="100" style="border-radius: 50%;">
 <br>
-<a href="https://github.com/BariHub"><strong><BariHub></strong></a>
+<a href="https://github.com/BariHub"><strong>BariHub</strong></a>
 </div>
 <!-- End contributor block -->
 
 <!-- Add more contributor blocks as needed -->
 
-</div>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- CONTRIBUTORS-LIST:END -->
-### Contributors
-
-<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<div style="display: flex; align-items: center;">
-
-<!-- Add this block for each contributor -->
 <div style="margin-right: 20px;">
 <img src="https://avatars.githubusercontent.com/u/108089675?v=4" alt="AevisMotax" width="100" style="border-radius: 50%;">
 <br>
-<a href="https://github.com/AevisMotax"><strong><AevisMotax></strong></a>
+<a href="https://github.com/AevisMotax"><strong>AevisMotax</strong></a>
 </div>
 <!-- End contributor block -->
 
 <!-- Add more contributor blocks as needed -->
 
-</div>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- CONTRIBUTORS-LIST:END -->
-### Contributors
-
-<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<div style="display: flex; align-items: center;">
-
-<!-- Add this block for each contributor -->
 <div style="margin-right: 20px;">
-<img src="https://avatars.githubusercontent.com/u/66443081?v=4" alt="DonTizi width="100" style="border-radius: 50%;">
+<img src="https://avatars.githubusercontent.com/u/66443081?v=4" alt="DonTizi" width="100" style="border-radius: 50%;">
 <br>
-<a href="https://github.com/DonTizi"><strong><DonTizi></strong></a>
+<a href="https://github.com/DonTizi"><strong>DonTizi</strong></a>
 </div>
 <!-- End contributor block -->
 
 <!-- Add more contributor blocks as needed -->
 
 </div>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- CONTRIBUTORS-LIST:END -->
-
 
 
 ## Challenge detail
