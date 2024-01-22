@@ -53,14 +53,17 @@ Output will be a calendar and Revenue and potential lost revenue.
 
 # Solution detail
 
-Frontend: Typescript react 
+**Frontend**: Typescript react 
 
-Backend: python
+**Backend**: python
 
-API: flask
+**API**: flask
 
 # Repository detail
 
-Under main, the sample data is provided, as well a backend c++ code and its data output.
+Under **main**, the sample data is provided, as well a backend c++ code and its data output.
 
-Under main/final version, the website file plus backend python code is provided. 
+Under **main/final** version, the website file plus backend python code is provided. 
+
+# Algorithm detail
+A true and false table (61*12*60*10) matrix. For each customer, evaluate the vacancy from their reservation starting time to the end time. If it is available, return true and update the table. 
