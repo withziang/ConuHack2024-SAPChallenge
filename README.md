@@ -61,7 +61,7 @@ __API__: flask
 
 # Repository detail
 
-Under __main__, the sample data is provided, as well a backend c++ code and its data output.
+Under __main__, the sample data is provided, as well a backend c++ code and its data output. This code is not used in the final version due to API connection difficulty. Real python backend code uses similar algorithm.
 
 Under __main/final__ version, the website file plus backend python code is provided. 
 
