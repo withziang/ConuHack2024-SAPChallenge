@@ -1,4 +1,19 @@
 {
   "projectName": "ConuHack2024",
-  "projectOwner": "withziang"
+  "projectOwner": "withziang",
+  "contributors": [
+    {
+      "name": "AevisMotax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108089675?v=4",
+      "profile": "https://github.com/AevisMotax",
+      "contributions": ["code", "documentation"]
+    },
+    {
+      "name": "withziang",
+      "avatar_url": "https://github.com/account",
+      "profile": "https://github.com/withziang",
+      "contributions": ["code", "documentation"]
+    }
+    // Add more contributors as needed
+  ]
 }
