@@ -6,10 +6,14 @@ This folder contains the codebase for a web application that utilizes ClerkJS fo
 To get started with this project, follow these steps:
 
 ### Initialize the project by installing the required packages with the following command:
+```
 npm i
+```
 
 ### Start the local development server by running the following command:
+```
 npm run dev
+```
 Create an env.local file in the project's root directory and place your API keys from ClerkJS (https://clerk.com/) in this file.
 
 Run the Python API file named api.py.
