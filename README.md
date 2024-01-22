@@ -18,8 +18,34 @@ This repository is dedicated to store the solution my team made for 2024 Conuhac
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
+![BariHub](https://avatars.githubusercontent.com/u/77416099?v=4) <!-- Replace with actual name and avatar URL -->
+[BariHub](https://github.com/BariHub) <!-- Replace with actual name and GitHub profile URL -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- CONTRIBUTORS-LIST:END -->
+### Contributors
+
+<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
 ![AevisMotax](https://avatars.githubusercontent.com/u/108089675?v=4) <!-- Replace with actual name and avatar URL -->
 [AevisMotax](https://github.com/AevisMotax) <!-- Replace with actual name and GitHub profile URL -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- CONTRIBUTORS-LIST:END -->
+### Contributors
+
+<!-- CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+![DonTizi](https://avatars.githubusercontent.com/u/66443081?v=4) <!-- Replace with actual name and avatar URL -->
+[DonTizi](https://github.com/DonTizi) <!-- Replace with actual name and GitHub profile URL -->
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
