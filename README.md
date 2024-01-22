@@ -54,10 +54,13 @@ Output will be a calendar and Revenue and potential lost revenue.
 # Solution detail
 
 Frontend: Typescript react 
+
 Backend: python
+
 API: flask
 
 # Repository detail
 
 Under main, the sample data is provided, as well a backend c++ code and its data output.
+
 Under main/final version, the website file plus backend python code is provided. 
