@@ -47,3 +47,17 @@ Input file is .CSV, sample input
 2022-09-13 15:32,2022-10-27 18:30,compact
 2022-09-14 07:14,2022-11-07 08:48,compact
 ```
+
+Output will be a calendar and Revenue and potential lost revenue.
+
+
+# Solution detail
+
+Frontend: Typescript react 
+Backend: python
+API: flask
+
+# Repository detail
+
+Under main, the sample data is provided, as well a backend c++ code and its data output.
+Under main/final version, the website file plus backend python code is provided. 
