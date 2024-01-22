@@ -67,3 +67,77 @@ Under __main/final__ version, the website file plus backend python code is provi
 
 # Algorithm detail
 A true and false table`(61 * 12 * 60 * 10)` matrix. For each customer, evaluate the vacancy from their reservation starting time to the end time. If it is available, return true and update the table. 
+```
+void update_slot(vector<vector<vector<vector<bool>>>>& time_schedule_true_and_false_table, int type, const int time[5], map <int, pair<int, int>> type_to_cost_and_time, int slot){
+	int time_in_min_start = time[3]*60+time[4];
+	for (int i =time_in_min_start; i< (time_in_min_start+type_to_cost_and_time[type].second);i++){
+		time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60-1][slot] = 1;
+	}
+}
+
+
+int check_slot_available_ang_update(vector <vector<vector<vector<bool>>>>& time_schedule_true_and_false_table,
+						int type, const int time[5], map <int, pair<int, int>> type_to_cost_and_time){
+	//2022:10:1:7:0 to 2022:11:30:19:0
+	// ex: 2022:11:25:2:56
+	// (31+30) month * 12 (hours) * 60 (mins)* 5
+	// 10 stations, 5 specific ones and 5 extra, check the 
+	bool ava[6]; // 5 extra plus 1 fixed
+	memset(ava, true, sizeof(ava));
+
+	//turn everything to min to loup through
+	int time_in_min_start = time[3]*60+time[4];
+	// 0 means unoccupied
+
+	for (int i =time_in_min_start; i< (time_in_min_start+type_to_cost_and_time[type].second);i++){
+		//special
+		if (ava[0] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][type]) ava[0] = 0;
+		//5 to 10
+		if (ava[1] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][5]) ava[1] = 0;
+		if (ava[2] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][6]) ava[2] = 0;
+		if (ava[3] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][7]) ava[3] = 0;
+		if (ava[4] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][8]) ava[4] = 0;
+		if (ava[5] && time_schedule_true_and_false_table[time[2]+31*(time[1]-10)-1][i/60-7][i%60][9]) ava[5] = 0;
+	}
+
+	//final answer
+	bool final = 0;
+	for (int i = 0;i < 6;i++) final = final || ava[i];
+
+
+	if (final){
+		if (ava[0]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, type);
+			return type+1;
+		}
+		else if (ava[1]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, 5);
+			return 6;
+		}
+		else if (ava[2]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, 6);
+			return 7;
+		}
+		else if (ava[3]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, 7);
+			return 8;
+		}
+		else if (ava[4]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, 8);
+			return 9;
+		}
+		else if (ava[5]){
+			update_slot(time_schedule_true_and_false_table, type, time, type_to_cost_and_time, 9);
+			return 10;
+		}
+	}
+
+	return 0;
+
+}
+    // a true and false table of length (31+30) month * 12 (hours) * 60 (mins)  and each has 10 sub vector
+    vector <vector<vector<vector<bool>>>> time_schedule_true_and_false_table(61, 
+    	vector<vector<vector<bool>>>(12, 
+    		vector<vector<bool>>(60, 
+    			vector<bool>(10,0))));  // 0 means unoccupied
+```
